@@ -1,5 +1,5 @@
 #!/bin/bash
-FOLDER='FluidR3_GM(2)'
+FOLDER='FluidR3_GM'
 FILES="./${FOLDER}/*"
 for f in $FILES
 do
@@ -26,7 +26,6 @@ do
 	  cat "./temp" > "./${FOLDER}/${INSTRUMENT}/${filename}.json"
 	else
 	  filename=$tempname
-	  #echo $filename
 	fi
 	done
   fi
